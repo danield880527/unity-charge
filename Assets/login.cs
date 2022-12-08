@@ -7,12 +7,11 @@ using UnityEngine.SceneManagement;
 
 public class login : MonoBehaviour
 {
-    public Button usrelogin;
+    public Button userlogin;
     public TMP_InputField UserName;
     public TMP_InputField PassWord;
     public TMP_Text Mistake;
     public TMP_Text Register;
-
     // Start is called before the first frame update
     
     void Start()
