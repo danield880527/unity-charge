@@ -188,7 +188,7 @@ GameObject:
   - component: {fileID: 117567226}
   - component: {fileID: 117567225}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text_success
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -394,6 +394,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 152543144}
   m_CullTransparentMesh: 1
+--- !u!1 &165117859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 165117860}
+  - component: {fileID: 165117861}
+  m_Layer: 0
+  m_Name: FirebaseManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &165117860
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165117859}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 562.5, y: 1173, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &165117861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165117859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79339e5ae1b6c904d9cb6d1aaafd9641, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &181996463
 GameObject:
   m_ObjectHideFlags: 0
@@ -407,7 +451,7 @@ GameObject:
   - component: {fileID: 181996466}
   - component: {fileID: 181996465}
   m_Layer: 5
-  m_Name: InputField (TMP)
+  m_Name: InputCreateEmail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1483,7 +1527,7 @@ GameObject:
   - component: {fileID: 344867127}
   - component: {fileID: 344867126}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Button_signup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1554,9 +1598,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1354049323}
-        m_TargetAssemblyTypeName: login, Assembly-CSharp
-        m_MethodName: OnButton
+      - m_Target: {fileID: 1640931724}
+        m_TargetAssemblyTypeName: mainsight, Assembly-CSharp
+        m_MethodName: Register
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2169,7 +2213,7 @@ GameObject:
   - component: {fileID: 771572850}
   - component: {fileID: 771572849}
   m_Layer: 5
-  m_Name: Button
+  m_Name: ButtonGoto_signup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3113,7 +3157,7 @@ GameObject:
   - component: {fileID: 1096363893}
   - component: {fileID: 1096363892}
   m_Layer: 5
-  m_Name: InputField (TMP)
+  m_Name: InputCreatePasswordCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3289,7 +3333,7 @@ GameObject:
   - component: {fileID: 1200221275}
   - component: {fileID: 1200221274}
   m_Layer: 5
-  m_Name: InputField (TMP)
+  m_Name: InputEmail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3585,7 +3629,7 @@ GameObject:
   - component: {fileID: 1252109090}
   - component: {fileID: 1252109091}
   m_Layer: 5
-  m_Name: Text (TMP) (1)
+  m_Name: Text_Fail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3786,7 +3830,7 @@ GameObject:
   - component: {fileID: 1360661753}
   - component: {fileID: 1360661752}
   m_Layer: 5
-  m_Name: InputField (TMP)
+  m_Name: InputCreatePassword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4039,7 +4083,7 @@ GameObject:
   - component: {fileID: 1408678626}
   - component: {fileID: 1408678625}
   m_Layer: 5
-  m_Name: Button
+  m_Name: ButtonLogin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4850,6 +4894,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1594648772}
   m_CullTransparentMesh: 1
+--- !u!1 &1640931722
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1640931723}
+  - component: {fileID: 1640931724}
+  m_Layer: 0
+  m_Name: MainScenes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1640931723
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640931722}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 562.5, y: 1173, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1640931724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640931722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f74c8b1411e2a0448aa5cbeb057ac492, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firebaseManager: {fileID: 165117861}
+  Registerbutton: {fileID: 344867126}
+  inputEmail: {fileID: 181996465}
+  inputPassword: {fileID: 1360661752}
+  Mistake: {fileID: 1252109091}
+  RegisterSuccess: {fileID: 117567225}
 --- !u!1 &1645474532
 GameObject:
   m_ObjectHideFlags: 0
@@ -4863,7 +4957,7 @@ GameObject:
   - component: {fileID: 1645474535}
   - component: {fileID: 1645474534}
   m_Layer: 5
-  m_Name: InputField (TMP)
+  m_Name: InputPassword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5470,7 +5564,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1889900334
 RectTransform:
   m_ObjectHideFlags: 0
