@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class login : MonoBehaviour
 {
@@ -32,7 +33,7 @@ public class login : MonoBehaviour
     {
         Register.gameObject.SetActive(true);
         StartCoroutine(Disappear());
-      //  ScenManager.LoadScene(1);
+        SceneManager.LoadScene("mainsign");
     }
     else
     {
