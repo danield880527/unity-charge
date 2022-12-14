@@ -11,7 +11,6 @@ public class windowscript2 : MonoBehaviour
     {
         CloseBtn.onClick.AddListener(() =>
         {
-            print(GameManager.score);
             gameObject.SetActive(false); //�|�۰ʧP�_gameObject�N�O�ثe�{��(component)�Ҧb��GameObject�����A�������wCloseBtn�A�_�h�N�|��CloseBtn�ۤv����
         });
     }

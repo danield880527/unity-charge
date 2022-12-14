@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using UnityEngine.SceneManagement;
 
 public class login : MonoBehaviour
 {
-    public Button userlogin;
+    public Button usrelogin;
     public TMP_InputField UserName;
     public TMP_InputField PassWord;
     public TMP_Text Mistake;
     public TMP_Text Register;
+
     // Start is called before the first frame update
     
     void Start()
@@ -32,7 +32,7 @@ public class login : MonoBehaviour
     {
         Register.gameObject.SetActive(true);
         StartCoroutine(Disappear());
-        SceneManager.LoadScene("mainsign");
+      //  ScenManager.LoadScene(1);
     }
     else
     {
